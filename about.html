@@ -5,7 +5,25 @@
 
 </head>
 <body>
-    <p>I am a human from planet Earth.</p>
+    <p>I am a human from planet Earth. I don't have anything specific to tell you.<br> <br>However, how about you contact me?</p>
+    <form>
+        <label for="name">Name?</label>
+        <input type="text" id="name" name="name" placeholder="Your name here">
+        <label for="email">Email Address</label>
+        <input type="email" id="email" name="email" placeholder="Your email here" required> <br>
+        <p>Is this a query or a comment</p> 
+        <select name="response" id="response">
+            <option value="YEP">Respond back please (Query)</option>
+            <option value="NOPE">No response required (Comment)</option>
+        </select>
+        <p>What is your age?</p>
+        <input type="radio" id="age1" name="age" value="Option1">1-25
+        <input type="radio" id="age2" name="age" value="Option1">26-50
+        <input type="radio" id="age3" name="age" value="Option1">50+
+        <br><br>
+        <p>Your message here: </p>
+        <textarea name="message" id="message" cols="30" rows="10" placeholder="Your message here" required></textarea>
+    </form>
 
 </body>
 </html>
