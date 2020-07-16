@@ -1,0 +1,23 @@
+h1 {
+    color: orange;
+    background-color: slategrey;
+    text-align: center;
+    text-decoration: underline;
+}
+
+h2 {
+    color: olivedrab;
+    background-color: wheat;
+}
+
+p {
+    text-shadow: 1px 1px #e9e9e9;
+}
+
+ul {
+    border: 4px solid snow;
+}
+
+li {
+    color: sandybrown;
+}
